@@ -1,0 +1,23 @@
+{
+  "name": "reviewscreen",
+  "version": "1.0.0",
+  "description": "A server that is a review credibility provider for various platforms, such as google maps",
+  "keywords": [
+    "default"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "default"
+  },
+  "license": "MIT",
+  "author": "bcs4313",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "default",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
