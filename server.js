@@ -22,6 +22,8 @@ app.get("/test-db", async (req, res) =>{
     }
 })
 
+app.use("/places", reviewsRouter)
+
 app.listen(PORT, () => {
     console.log(`Connection made with PORT: ${PORT}`)
 })
